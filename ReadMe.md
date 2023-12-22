@@ -31,8 +31,10 @@ With the best value for k found above by elbow method, the cryptos have been clu
 
 ![crypto_clusters](crypto_clusters.png)
 
-As can be seen from the chart, the clusters generated through PCA resulted in better clustering. Even clusters are more tightened up for cluster 0 and cluster 2.
-
+As can be seen from the charts, the clusters generated through PCA resulted in better clustering. Since sum of explained variance ratio under PCA is 89.50% which makes the PCA data more ideal to draw a model. Additionally, from the chart, it appears that clusters generated through PCA resulted in better representation. Cluster  0 and cluster 2 are tightened up as compared to clusters derived from original data where data points are more random. 
+ 
+ Looking at PCA clusters themselves reflected that clusters are more standarized but it is hard to make a true comparison between two charts since clusters derived from original data reflected only two dimensions "price change in 24 hrs" and "price change in 7days" whereas PCA chart reflected the dimensions which are most dominant in original data.Note that sum of expected variance ratio for PCA1 and PCA2 is approx. 72%.
+  
 
 
 
